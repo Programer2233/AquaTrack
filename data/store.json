@@ -1,0 +1,341 @@
+{
+  "admins": [
+    {
+      "username": "admin",
+      "password": "aquatrack2026",
+      "name": "Municipal Admin"
+    }
+  ],
+  "areas": [
+    {
+      "id": "area1",
+      "name": "Woreda 01",
+      "region": "Bole"
+    },
+    {
+      "id": "area2",
+      "name": "Woreda 02",
+      "region": "Kirkos"
+    },
+    {
+      "id": "area3",
+      "name": "Woreda 03",
+      "region": "Arada"
+    },
+    {
+      "id": "area4",
+      "name": "Woreda 04",
+      "region": "Yeka"
+    },
+    {
+      "id": "area5",
+      "name": "Woreda 05",
+      "region": "Lideta"
+    },
+    {
+      "id": "area6",
+      "name": "Woreda 06",
+      "region": "Gullele"
+    }
+  ],
+  "records": [
+    {
+      "id": "r1",
+      "areaId": "area1",
+      "areaName": "Woreda 01",
+      "households": 1250,
+      "volumeUsed": 45000,
+      "month": "January",
+      "year": 2026,
+      "createdAt": "2026-02-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r2",
+      "areaId": "area1",
+      "areaName": "Woreda 01",
+      "households": 1250,
+      "volumeUsed": 42000,
+      "month": "February",
+      "year": 2026,
+      "createdAt": "2026-03-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r3",
+      "areaId": "area1",
+      "areaName": "Woreda 01",
+      "households": 1260,
+      "volumeUsed": 39500,
+      "month": "March",
+      "year": 2026,
+      "createdAt": "2026-04-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r4",
+      "areaId": "area2",
+      "areaName": "Woreda 02",
+      "households": 800,
+      "volumeUsed": 32000,
+      "month": "January",
+      "year": 2026,
+      "createdAt": "2026-02-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r5",
+      "areaId": "area2",
+      "areaName": "Woreda 02",
+      "households": 810,
+      "volumeUsed": 30500,
+      "month": "February",
+      "year": 2026,
+      "createdAt": "2026-03-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r6",
+      "areaId": "area2",
+      "areaName": "Woreda 02",
+      "households": 815,
+      "volumeUsed": 28000,
+      "month": "March",
+      "year": 2026,
+      "createdAt": "2026-04-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r7",
+      "areaId": "area3",
+      "areaName": "Woreda 03",
+      "households": 2100,
+      "volumeUsed": 78000,
+      "month": "January",
+      "year": 2026,
+      "createdAt": "2026-02-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r8",
+      "areaId": "area3",
+      "areaName": "Woreda 03",
+      "households": 2100,
+      "volumeUsed": 75000,
+      "month": "February",
+      "year": 2026,
+      "createdAt": "2026-03-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r9",
+      "areaId": "area3",
+      "areaName": "Woreda 03",
+      "households": 2120,
+      "volumeUsed": 72000,
+      "month": "March",
+      "year": 2026,
+      "createdAt": "2026-04-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r10",
+      "areaId": "area4",
+      "areaName": "Woreda 04",
+      "households": 450,
+      "volumeUsed": 95000,
+      "month": "January",
+      "year": 2026,
+      "createdAt": "2026-02-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r11",
+      "areaId": "area4",
+      "areaName": "Woreda 04",
+      "households": 450,
+      "volumeUsed": 92000,
+      "month": "February",
+      "year": 2026,
+      "createdAt": "2026-03-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r12",
+      "areaId": "area4",
+      "areaName": "Woreda 04",
+      "households": 455,
+      "volumeUsed": 89000,
+      "month": "March",
+      "year": 2026,
+      "createdAt": "2026-04-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r13",
+      "areaId": "area5",
+      "areaName": "Woreda 05",
+      "households": 1600,
+      "volumeUsed": 58000,
+      "month": "January",
+      "year": 2026,
+      "createdAt": "2026-02-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r14",
+      "areaId": "area5",
+      "areaName": "Woreda 05",
+      "households": 1600,
+      "volumeUsed": 55000,
+      "month": "February",
+      "year": 2026,
+      "createdAt": "2026-03-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r15",
+      "areaId": "area5",
+      "areaName": "Woreda 05",
+      "households": 1610,
+      "volumeUsed": 52000,
+      "month": "March",
+      "year": 2026,
+      "createdAt": "2026-04-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r16",
+      "areaId": "area6",
+      "areaName": "Woreda 06",
+      "households": 950,
+      "volumeUsed": 36000,
+      "month": "January",
+      "year": 2026,
+      "createdAt": "2026-02-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r17",
+      "areaId": "area6",
+      "areaName": "Woreda 06",
+      "households": 955,
+      "volumeUsed": 34000,
+      "month": "February",
+      "year": 2026,
+      "createdAt": "2026-03-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": "r18",
+      "areaId": "area6",
+      "areaName": "Woreda 06",
+      "households": 960,
+      "volumeUsed": 32000,
+      "month": "March",
+      "year": 2026,
+      "createdAt": "2026-04-01",
+      "createdBy": "admin"
+    },
+    {
+      "areaId": "area2",
+      "areaName": "Woreda 02",
+      "households": 1250,
+      "volumeUsed": 4500,
+      "month": "March",
+      "year": 2026,
+      "createdBy": "admin",
+      "id": "mocqf67gywm42o7p8",
+      "createdAt": "2026-04-24T09:52:38.188Z"
+    }
+  ],
+  "plumbers": [
+    {
+      "id": "p1",
+      "name": "Abel Tesfaye",
+      "email": "abel@ethiofix.com",
+      "phone": "+251 911 123 456",
+      "license": "PLB-ETH-2024-01",
+      "services": "Pipe Repair, Leak Detection",
+      "areas": "Bole, Kirkos",
+      "experience": 7,
+      "bio": "Expert in residential plumbing in Addis Ababa.",
+      "status": "approved",
+      "createdAt": "2026-01-15"
+    },
+    {
+      "id": "p2",
+      "name": "Bethlehem Girma",
+      "email": "betty@plumb Addis.com",
+      "phone": "+251 922 234 567",
+      "license": "PLB-ETH-2024-02",
+      "services": "Water Heater, Emergency Repairs",
+      "areas": "Arada, Yeka",
+      "experience": 10,
+      "bio": "Professional plumber specializing in water efficiency.",
+      "status": "approved",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "p3",
+      "name": "Dawit Mekonnen",
+      "email": "dawit@quickfix.com",
+      "phone": "+251 933 345 678",
+      "license": "PLB-ETH-2025-03",
+      "services": "Drain Cleaning, Pipe Installation",
+      "areas": "Lideta, Gullele",
+      "experience": 5,
+      "bio": "Dedicated to providing fast and reliable plumbing services.",
+      "status": "approved",
+      "createdAt": "2026-02-10"
+    },
+    {
+      "id": "p4",
+      "name": "Tigist Assefa",
+      "email": "tigist@leakexpert.com",
+      "phone": "+251 944 456 789",
+      "license": "PLB-ETH-2025-04",
+      "services": "Leak Detection, Meter Installation",
+      "areas": "Bole, Arada",
+      "experience": 4,
+      "bio": "Passionate about water conservation and modern plumbing.",
+      "status": "approved",
+      "createdAt": "2026-03-05"
+    },
+    {
+      "name": "Abel Colab",
+      "email": "abelcolab118@gmail.com",
+      "phone": "095435345",
+      "license": "34532865342",
+      "services": "ergiv;njhfhdfm",
+      "areas": "odnvds",
+      "experience": 5,
+      "bio": "fjrfvc",
+      "id": "moh4yashh9i55fdco",
+      "status": "approved",
+      "createdAt": "2026-04-27T11:50:29.921Z"
+    }
+  ],
+  "leakReports": [
+    {
+      "id": "l1",
+      "location": "Bole Road, Near Friendship Mall",
+      "description": "Large pipe burst flooding the sidewalk",
+      "severity": "critical",
+      "reporterName": "Kebede M.",
+      "reporterPhone": "+251 900 111 222",
+      "status": "resolved",
+      "createdAt": "2026-04-18"
+    },
+    {
+      "id": "l2",
+      "location": "Piassa, Church Square",
+      "description": "Public fountain leaking excessively",
+      "severity": "medium",
+      "reporterName": "Aster W.",
+      "reporterPhone": "+251 900 333 444",
+      "status": "resolved",
+      "createdAt": "2026-04-20"
+    }
+  ]
+}
