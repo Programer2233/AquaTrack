@@ -121,7 +121,7 @@ export default function DashboardPage() {
           <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '1rem' }}>Usage Distribution by Area</h3>
           <ResponsiveContainer width="100%" height={250}>
             <PieChart>
-              <Pie data={pieData} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={90} label={({ name }) => name.length > 10 ? name.slice(0, 10) + '..' : name} fontSize={10}>
+              <Pie data={pieData} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={90} label={({ name }) => name && name.length > 10 ? name.slice(0, 10) + '..' : name || ''} fontSize={10}>
                 {pieData.map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} />)}
               </Pie>
               <Tooltip contentStyle={{ background: '#1e293b', border: '1px solid rgba(148,163,184,0.2)', borderRadius: 8, color: '#f1f5f9' }} />
